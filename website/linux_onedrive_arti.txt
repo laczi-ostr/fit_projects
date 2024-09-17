@@ -1,0 +1,80 @@
+first intall 
+
+sudo apt install onedrive
+
+to sing in run
+
+onedrive
+you will ge a link to fallow to sing in to your Microsoft account 
+when you sing in you will get empty page you need to copy addres of that page and past back in to terminal
+that will finsh sing in proces. 
+
+to sync all folders run
+onedrive --synchronize
+
+to sync just a folder run (example documents)
+onedrive --synchronize --verbose --single-directory 'Documents'
+
+
+chatgpt edit
+
+### Installing and Using OneDrive Client on Linux: A Step-by-Step Guide
+
+OneDrive is a popular cloud storage service from Microsoft, but it doesn't have an official client for Linux. However, thanks to the open-source community, there is a third-party OneDrive client available for Linux users. This guide will walk you through the process of installing the OneDrive client on your Linux system, signing in to your Microsoft account, and synchronizing your files.
+
+#### Step 1: Install the OneDrive Client
+
+The first step in using OneDrive on Linux is to install the client. You can easily install it using the terminal. Open your terminal and run the following command:
+
+```bash
+sudo apt install onedrive
+```
+
+This command installs the OneDrive client from your distribution's package manager. After the installation is complete, you'll be ready to sign in to your Microsoft account.
+
+#### Step 2: Sign In to Your Microsoft Account
+
+To sign in to your Microsoft account, you need to run the OneDrive client with the following command:
+
+```bash
+onedrive
+```
+
+Upon running this command, the terminal will provide you with a link. This link is required to authenticate your account. Follow these steps to complete the sign-in process:
+
+1. Copy the provided link from the terminal.
+2. Open your web browser and paste the link into the address bar.
+3. Sign in to your Microsoft account using your credentials.
+4. After signing in, you will be redirected to a blank page. This is normal.
+5. Copy the URL from this blank page and return to your terminal.
+6. Paste the copied URL into the terminal and press Enter.
+
+This process will finalize the authentication, and your Linux OneDrive client will now be linked to your Microsoft account.
+
+#### Step 3: Synchronize Your Files
+
+With your OneDrive client installed and authenticated, you can now synchronize your files. There are two primary ways to synchronize files using the OneDrive client:
+
+##### 1. Synchronize All Folders
+
+If you want to synchronize all the folders from your OneDrive account, run the following command:
+
+```bash
+onedrive --synchronize
+```
+
+This command will sync all the folders and files from your OneDrive account to your Linux system.
+
+##### 2. Synchronize a Specific Folder
+
+If you only want to synchronize a specific folder (for example, your "Documents" folder), use the following command:
+
+```bash
+onedrive --synchronize --verbose --single-directory 'Documents'
+```
+
+In this example, replace `'Documents'` with the name of the folder you wish to sync. This command will only download and sync the specified folder.
+
+### Conclusion
+
+The OneDrive client for Linux offers a straightforward way to access and manage your cloud storage directly from your Linux system. Whether you want to sync all your files or just a specific folder, these steps will help you get started. By following this guide, you can efficiently integrate OneDrive into your Linux workflow and enjoy the convenience of cloud storage on your preferred operating system.

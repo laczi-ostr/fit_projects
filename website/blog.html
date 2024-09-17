@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Local Css file-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- stylesheet for burger menu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Blog</title>
+
+<!--Script that alows include -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function() {
+         $("#menuHtml").load("menu.html");
+         $("#footHtml").load("foter.html");
+         $("#headHtml").load("header.html");
+      });
+    </script> 
+</head>
+<body>
+    <div id="menuHtml"></div>
+<main>
+    <div id="headHtml"></div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates asperiores reiciendis hic, eaque sapiente expedita. Dignissimos maxime molestias culpa quo impedit nihil, harum necessitatibus odio aliquid minima suscipit cupiditate!</p>
+   
+</main>
+<div id="footHtml"></div>
+</body>
+</html>

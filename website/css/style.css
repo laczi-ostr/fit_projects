@@ -1,0 +1,136 @@
+/*body */
+header {
+    position: static;
+    right: 0;
+    width: 100%;
+    margin-bottom: auto;
+    text-align: center;
+    background-image: url(/img/grunge-banner-3-4.png);
+    color: #ffffff;
+}
+main {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    height: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #333333ea;
+    color: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;   
+    background-color: #333;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+footer a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+body {
+    background-image: url("/img/back.png");
+}
+/*top menu all and formating */
+.top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;   
+}
+
+.top-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+#left{
+    float: left;
+  }
+#right {
+    float:right
+}
+.top-menu a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.active {
+    background-color: #aa049f;
+}
+
+.top-menu a:hover:not(.active) {
+    background-color: #aa049fe8;
+  }
+/* Stops from displaying menu */
+
+.top-menu #myLinks {
+    display: none;
+}    
+/*Bmenu visible after press*/
+
+.bmenu {
+    overflow: hidden;
+    background-color: #a2529de8;
+    position: fixed;
+    width: 100%;
+}
+.pading {
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+  }
+.row {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+  
+#articlee  {
+    width: 380px;
+    background-color: #334;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#articlee:hover {
+    background-color: #aa049fe8;
+  }
+#imgg {
+    border: 6px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: auto;
+  }
+  #articlee-text {
+    font-size: 16px;
+  }
